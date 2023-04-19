@@ -1,0 +1,121 @@
+
+/* Global Styles */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif, Itim;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Header Styles */
+
+header {
+	background-color: #eee;
+	padding: 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 36px;
+	font-family: 'Itim', cursive;
+}
+
+/* Main Styles */
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+section {
+	flex-basis: 50%;
+	margin-bottom: 40px;
+}
+
+section.products ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section.products li {
+	flex-basis: calc(33.33% - 20px);
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+section.products img {
+	width: 100%;
+}
+
+section.products h2 {
+	margin: 10px 0;
+	font-size: 24px;
+    font-family: 'Itim';
+}
+
+section.products h3 {
+	margin: 10px 0;
+	font-size: 24px;
+    font-family: 'Itim', cursive;
+}
+
+section.products p {
+	margin: 10px 0;
+}
+
+section.products a {
+	display: inline-block;
+	background-color: #000;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+section.reviews li {
+	margin-bottom: 20px;
+}
+
+section.reviews h2 {
+	margin: 10px 0;
+	font-size: 24px;
+    font-family: 'Itim', cursive;
+}
+
+section.reviews h3 {
+	margin: 10px 0;
+	font-size: 24px;
+    font-family: 'Itim', cursive;
+}
+
+section.reviews p {
+	margin: 10px 0;
+}
+
+/* Footer Styles */
+
+footer {
+	background-color: #eee;
+	padding: 20px;
+	text-align: center;
+}
