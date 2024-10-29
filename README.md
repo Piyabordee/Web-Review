@@ -1,4 +1,5 @@
 # Web-Review
-It is a website for reviewing products that have been used.
 
-It is a website made for educational purposes only.
+This website serves as a platform for reviewing used products, designed exclusively for educational purposes.
+
+[Preview](https://htmlpreview.github.io/?https://github.com/piyabordee/Web-Review/blob/main/index.html)
